@@ -2,8 +2,8 @@ public class Main {
     public static void main(String[] args) {
 
         BmiService service = new BmiService () ;
-        int weight = 80 ;
-        double height = 1.73 ;
+        int weightInKg = 80 ;
+        double heightInMeters = 1.73 ;
         int bmi = service.calculate(80,1.73);
 
         System.out.println("Body Mass Index = " + bmi);
